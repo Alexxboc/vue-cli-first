@@ -1,18 +1,28 @@
 <template>
-    <div class="title">
-        <h1><em>"La mia prima app con Vue CLI!"</em></h1>
+    <div>
+        <h1>"La mia prima app con Vue CLI!"</h1>
     </div>
 </template>
 
 <script>
 
 export default {
-    name: "Title"
+    name: 'MyTitle'
 }
 </script>
 
 <style scoped>
-    .title {
-        color: aquamarine;
+    h1 {
+        font-size: 50px;
+        margin: 3rem 0;
+        display: inline-block;
+        color: white;
+        background-color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem;
+        text-transform: uppercase;
+
+        
+
     }
 </style>
